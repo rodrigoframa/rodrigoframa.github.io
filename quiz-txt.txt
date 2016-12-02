@@ -1,0 +1,39 @@
+Em que área você têm mais afinidade?
+
+1 - Durante a resolução de um problema cotidiano, você prefere:
+
+a) Seguir uma lógica para resolução do problema
+b) Tentar resolver da forma mais prática e rápida possível
+c) Provar de forma matemática qual é a possível resolução
+
+2 - Em relação a eletrônicos em geral
+
+a) Você quer entender a sua forma de funcionamento e poder contrololar os componentes
+b) Você gosta de entender como é feita a comunicação interna de cada componente e sua forma de funcionamento
+c) Você não está nem aí para seu funcionamento
+
+3 - O seu tipo predileto de trabalho é aquele que você precisa:
+
+a)	Virar a noite programando para entregar o trabalho pronto no próximo dia
+b)	Montar estrutura física e lógica do projeto, conectando seus componentes e verificando se forma de funcionamento está de acordo com a desejada
+c)	Realizar vários cálculos com objetivo de verificar soluções para problemas específicos
+
+
+4 - Qual o seu nível de programação?
+
+a) Alto, sou capaz de programar em várias linguagens de programação
+b) Médio, programo mais ou menos e consigo me desenrolar bem
+c) Baixo, odeio programar mas realizo o trabalho quando necessário
+
+5 - Qual seria o seu local de trabalho ideal no futuro?
+
+a) Em um escritório gerenciando projetos de softwares 
+b) Em uma indústria projetando e gerenciando a melhor forma de funcionamento das máquinas 
+c) Em uma grande empresa gerenciando qual a melhor forma de comunicação por meio de redes de telecomunicações
+
+6 - Em relação a redes, qual a sua afinidade?
+
+a) Média, entendo a estrutura e resolver alguns problemas
+b) Baixa, entendo a estrutura e forma de funcionamento, mas acho chato
+c) Alta, entendo a estrutura e sou capaz de configurar os componentes necessários para melhor funcionamento da rede
+

@@ -1,144 +1,349 @@
 <!DOCTYPE html>
-
-COMENTARIO TESTE 
 <html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8"/>
-    <title>Engenharia da Computação - UEMA</title>
-    <link rel="stylesheet" href="https://rodrigoframa.github.io/css/estilo.css"/>
-</head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Site sobre o curso de Engenharia da Computação da Universidade Estadual do Maranhão">
+    <meta name="author" content="Rodrigo Frazão, Leilanne Borges e Daniel Douglas">
+    <title>Uema | Engenharia da Computação</title>
+    <link href="http://rodrigoframa.github.io/css/bootstrap.min.css" rel="stylesheet">
+    <link href="http://rodrigoframa.github.io/css/font-awesome.min.css" rel="stylesheet">
+    <link href="http://rodrigoframa.github.io/css/prettyPhoto.css" rel="stylesheet">
+    <link href="http://rodrigoframa.github.io/css/animate.css" rel="stylesheet">
+    <link href="http://rodrigoframa.github.io/css/main.css" rel="stylesheet">
+    <link rel="shortcut icon" href="http://rodrigoframa.github.io/images/ico/icon-logo-57.png">
+    <!-- iPad com Retina Display -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://rodrigoframa.github.io/images/ico/icon-logo-144.png">
+    <!-- iPhone com Retina Display -->
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://rodrigoframa.github.io/images/ico/icon-logo-114.png">
+    <!-- Primeira e segunda geração de iPad -->
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://rodrigoframa.github.io/images/ico/icon-logo-72.png"> </head>
+<!--/head-->
+
 <body>
-<div id="interface">
-    <header id="cabecalho">
-        <hgroup>
-            <h1>Engenharia da Computação</h1>
-            <h2>UEMA</h2>
-        </hgroup>
-        <!-- <img id="icone" src="_imagens/logo.png"/> -->
-
-        <!--Commit teste 2-->
-
-
-        <nav id="menu">
-            <h1>Menu Principal</h1>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="quiz.html">Quiz</a></li>
-                <li><a href="grade.html">Grade</a></li>
-                <li><a href="discentes.html">Discentes</a></li>
-                <li><a href="docentes.html">Docentes</a></li>
-                <li><a href="graduacao.html">Graduação</a></li>
-                <li><a href="contatos.html">Contatos</a></li>
-            </ul>
-        </nav>
+    <header class="navbar navbar-inverse navbar-fixed-top wet-asphalt" role="banner">
+        <div class="container">
+            <div class="navbar-header">
+                <a id="logo" class="navbar-brand" href="http://rodrigoframa.github.io/index.html"><img src="http://rodrigoframa.github.io/images/logo.png" alt="logo" width="60">&nbsp;&nbsp;&nbsp;&nbsp;<strong>Engenharia da Computação | UEMA</strong></a>
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+            </div>
+            <div class="collapse navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a href="http://rodrigoframa.github.io/index.html">Home</a></li>
+                    <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Discentes<i class="icon-angle-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="http://rodrigoframa.github.io/404.html">4 Bytes Empresa Júnior</a></li>
+                            <li><a href="http://rodrigoframa.github.io/projetos.html">Projetos de Pesquisas</a></li>
+                            <li><a href="http://rodrigoframa.github.io/monitoria.html">Monitoria</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="http://rodrigoframa.github.io/docentes.html">Docentes</a></li>
+                    <li><a href="http://rodrigoframa.github.io/grade.html">Grade Curricular</a></li>
+                    <li><a href="http://rodrigoframa.github.io/quiz.html">Quiz</a></li>
+                    <li><a href="http://rodrigoframa.github.io/contatos.html">Contatos</a></li>
+                </ul>
+            </div>
+        </div>
     </header>
-    <section id="corpo">
-        <article id="noticia-principali">
-            <header id="cabecalho-artigo">
-                <hgroup>
-                    <h3>Educação> Tecnologia</h3>
-                    <h1>Saiba tudo sobre o curso de Engenharia da Computação da UEMA</h1>
-                    <h2>por Rodrigo Frazão</h2>
-                    <h3 class="direita">Atualizado em 14/Outubro/2016</h3>
-                </hgroup>
-            </header>
-            <h2>Missão</h2>
-            <p>O Curso de Engenharia de Computação tem a missão de contribuir com todas as atividades que a sociedade atribui à universidade: ensino, pesquisa e atividades de cultura e extensão nas áreas da Engenharia de Computação. A missão da Engenharia de Computação é formar profissionais, líderes e cientistas, apoiando a comunidade na resolução de problemas relacionados à sua atuação, e colaborando para a construção de uma sociedade justa e buscando melhoria da qualidade de vida dos brasileiros.
-            </p>
-
-            <figure class="foto-legenda">
-                <img src="_imagens/glass-quadro-homem-mulher.jpg"/>
-                <figcaption>
-                    <h3>Engenharia da Computação</h3>
-                    <p>O curso do momento!</p>
-                </figcaption>
-            </figure>
-            <h2>Data de lançamento</h2>
-            <p>O Curso teve sua primeira turma iniciado em 2006 porém devido greve ocorrida no ano não houve vestibular para o ano seguinte, tendo a segunda turma entrante em 2008. .</p>
-
-            <h2>Características de Funcionamento do Curso</h2>
-            <table id="tabelaspec">
-                <caption>Resumo<span>Dez/2016</span></caption>
-                <tr>
-                    <td class="ce">Vagas Anuais</td>
-                    <td class="cd">45 (quarenta e cinco)"</td>
-                </tr>
-                <tr>
-                    <!-- <td rowspan="2" class="ce">Período normal de integralização</td> -->
-                    <td rowspan="3" class="ce">Período integralização</td>
-                    <td class="cd">4 anos e 6 meses(mínimo)</td>
-                </tr>
-                <tr>
-                    <td class="cd">5 anos (normal)</td>
-                </tr>
-                <tr>
-                    <td class="cd">8 anos (máximo)</td>
-                </tr>
-                <tr>
-                    <td class="ce">Turnos de funcionamento</td>
-                    <td class="cd">Manhã e tarde, com entradas alternadas com possibilidade dos 2
-                        períodos finais no período tarde-noite; aulas diurnas das 7:30 as
-                        12:30 e das 13:30 às 18:30 e sábado das 7:30 às 12:30 h; aulas
-                        tarde-noite das 16:00 às 21:40 h</td>
-                </tr>
-                <tr>
-                    <td class="ce">Carga-horária do curso</td>
-                    <td class="cd">4.650 horas-aula</td>
-                </tr>
-            </table>
-            <h2>Telemática e Telecomunicações</h2>
-            <p>As habilidades e competências específicas da área de concentração em Telemática e Telecomunicações são as seguintes:</p>
-            <ul class="lista">
-            <li>consultoria e integração de sistemas de telecomunicações e rede de computadores;</li>
-            <li>desenvolvimento de produtos e serviços em telemática;</li>
-            <li>análise e projeto de sistemas de redes e comunicação;</li>
-            <li>gestão de tecnologias;</li>
-            <li>projeto de modelos de gestão de redes de comunicação de dados;</li>
-            <li>ter familiaridade com as tecnologias de redes e de sistemas de telecomunicações, sendo capaz de discernir como, quando e quanto utilizar tais ferramentas</li></ul>
-
-            <h2>Engenharia de Software e Tecnologia da Informação</h2>
-            <p>As habilidades e competências específicas da área de concentração em Engenharia de Software e Tecnologia da Informação são as seguintes:</p>
-            <ul class="lista">
-            <li>consultoria e integração de sistemas;</li>
-            <li>desenvolvimento de software;</li>
-            <li>desenvolvimento Web e comércio eletrônico;</li>
-            <li>desenvolvimento de produtos e serviços à sociedade;</li>
-            <li>análise e projeto de sistemas;</li>
-            <li>gerenciamento de sistemas e tecnologias;</li>
-            <li>integração de tecnologias de TI e ES;</li>
-            <li>familiaridade com as tecnologias e ferramentas de análise e projeto de software, sendo capaz de discernir como, quando e quanto utilizar tais ferramentas.</li></ul>
-
-            <h2>Automação e Controle</h2>
-            <p>As habilidades e competências específicas da área de concentração em Automação e Controle são as seguintes:</p>
-            <ul class="lista">
-            <li>consultoria e integração de sistemas de automação industrial;</li>
-            <li>desenvolvimento de produtos e serviços para automação e controles industriais, comerciais e serviços;</li>
-            <li>análise e projeto de sistemas de automação e controle de processos industriais e comerciais, sistemas e dispositivos de computação embarcada, sistemas e equipamentos de telecomunicações, equipamentos de instrumentação eletrônica;</li>
-            <li>gerência de sistemas de controle industrial e comportamento organizacional;</li>
-            <li>integração de tecnologias para controle e automação;</li>
-            <li>desenvolvimento de projetos de inovação tecnológica;</li>
-            <li>familiaridade com as tecnologias de automação e controle e com ferramentas de projeto, sendo capaz de discernir como, quando e quanto utilizar tais ferramentas.</li></ul>
-
-
-
-            [AQUI ENTRA UMA IMAGEM]
-        </article>
+    <!--/header-->
+    <section id="main-slider" class="no-margin">
+        <div class="carousel slide wet-asphalt">
+            <ol class="carousel-indicators">
+                <li data-target="#main-slider" data-slide-to="0" class="active"></li>
+                <li data-target="#main-slider" data-slide-to="1"></li>
+                <li data-target="#main-slider" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="item active" style="background-image: url(images/slider/program.jpg)">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="carousel-content centered">
+                                    <h2 class="boxed animation animated-item-1">Engenharia da Computação</h2>
+                                    <p class="boxed animation animated-item-2"> A missão da Engenharia de Computação é formar profissionais, líderes e cientistas, apoiando a comunidade na resolução de problemas relacionados à sua atuação, e colaborando para a construção de uma sociedade justa e buscando melhoria da qualidade de vida dos brasileiros.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--/.item-->
+                <div class="item" style="background-image: url(images/slider/uema.jpg)">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="carousel-content center centered">
+                                    <h2 class="boxed animation animated-item-1"><a href="http://www.uema.br" target="_blank">Universidade Estadual do Maranhão</a></h2>
+                                    <div>
+                                        <p class="boxed animation animated-item-2">Campus Paulo VI</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--/.item-->
+                <div class="item" style="background-image: url(images/slider/keyboard.jpg)">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="carousel-content centered">
+                                    <h2 class="animation animated-item-1">Reportagem sobre o curso de Engenharia da Computação</h2>
+                                    <p class="animation animated-item-2">A emissora Mirante realizou uma reportagem sobre o curso e suas ambições em um mercado de trabalho tão acirrado e competitivo.</p>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 hidden-xs animation animated-item-4">
+                                <div class="centered">
+                                    <div class="embed-container">
+                                        <iframe src="https://www.youtube.com/embed/0FESaK3hi2U" frameborder="0" allowfullscreen></iframe>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--/.item-->
+            </div>
+            <!--/.carousel-inner-->
+        </div>
+        <!--/.carousel-->
+        <a class="prev hidden-xs" href="#main-slider" data-slide="prev"> <i class="icon-angle-left"></i> </a>
+        <a class="next hidden-xs" href="#main-slider" data-slide="next"> <i class="icon-angle-right"></i> </a>
     </section>
-    <aside id="lateral">
-        <h1>Outras Notícias</h1>
-        <h2>Criança Engenharia</h2>
-
-        [AQUI ENTRA UM BANNER]
-
-        <h2>Governo celebra Termo de Cooperação Técnica com Fapema e Uema</h2>
-        <p>O Governo do Maranhão, por meio da Secretaria de Estado da Ciência, Tecnologia e Inovação (Secti), celebrou na tarde desta terça-feira (11), um Termo de Cooperação Técnica com a Fundação de Amparo à Pesquisa e ao Desenvolvimento Científico e Tecnológico do Maranhão (Fapema) e Universidade Estadual do Maranhão (Uema). Com o mecanismo, se abre uma turma para a implantação do mestrado em Engenharia Aeroespacial, em parceria com Instituto Tecnológico de Aeronáutica (ITA), que auxilia o programa de pós-graduação que a Uema desenvolve, além de contribuir para a formação de recursos humanos nesse setor no Maranhão.</p>
-        <p>De acordo com o secretário de Estado da Ciência, Tecnologia e Inovação, Jhonatan Almada, o termo abre um novo leque de oportunidades para quem deseja dar continuidade a vida acadêmica.
-            “O mestrado em Engenharia Aeroespacial pode mudar a história, o destino deste estado e de sua gente porque é uma oportunidade de inclusão acadêmica e social para muitos”, comentou o secretário.</p>
-        <p>Para mais informações clique <a href="/">aqui</a>. </p>
-    </aside>
-    <footer id="rodape">
-        <p>Copyright &copy; 2016 - por <a href="http://facebook.com/rodsfmaia" target="_blank">Rodrigo Frazão</a>, <a href="http://facebook.com/leilanneborges" target="_blank">Leilanne Borges</a>, Daniel Douglas <br/></p>
+    <!--/#main-slider-->
+    <section id="services" class="wisteria">
+        <div class="container">
+            <div class="center"> <img src="images/ico/icon-graduation.png" alt="">
+                <h2>Áreas de Concentração</h2> </div>
+            <div class="row">
+                <div class="col-md-4 col-sm-6 text-center">
+                    <div class="media">
+                        <div class="feature-box-heading"> <img src="images/ico/icon-auto.png"> </div>
+                        <div class="media-body">
+                            <h4 class="media-heading " >Automação e Controle</h4>
+                            <p>Projeta, gerencia e opera equipamentos usados nos processos produtivos das indústrias em geral. É sua função, também, dar manutenção a esses equipamentos. Ele é responsável pela programação das máquinas e pela adaptação de softwares aos processos industriais.</p>
+                        </div>
+                    </div>
+                </div>
+                <!--/.col-md-4-->
+                <div class="col-md-4 col-sm-6 text-center">
+                    <div class="media">
+                        <div class="feature-box-heading"> <img src="images/ico/icon-tele.png"> </div>
+                        <div class="media-body">
+                            <h4 class="media-heading">Telemática e Telecomunicações</h4>
+                            <p>Desenvolve, implanta e dá manutenção a redes de telecomunicações. Cuida de cabeamentos aéreos e subterrâneos, satélites artificiais, centrais de transmissão, captação, codificação e retransmissão dos sinais que interligam o planeta.</p>
+                        </div>
+                    </div>
+                </div>
+                <!--/.col-md-4-->
+                <div class="col-md-4 col-sm-6 text-center">
+                    <div class="media">
+                        <div class="feature-box-heading"> <img src="images/ico/icon-ti.png"> </div>
+                        <div class="media-body">
+                            <h4 class="media-heading">Engenharia de Software e T.I.</h4>
+                            <p>Dedica-se ao desenvolvimento de softwares e programas computacionais. Cria aplicativos, jogos, plataformas digitais para atividades educacionais, sistemas embarcados e sistemas específicos, de forma a elevar seu desempenho e produtividade.</p>
+                        </div>
+                    </div>
+                </div>
+                <!--/.col-md-4-->
+            </div>
+        </div>
+    </section>
+    <!--/#services-->
+    <section id="recent-works">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <h3>Projetos</h3>
+                    <p>Alguns projetos e trabalhos realizados pelos alunos do curso.</p>
+                    <div class="btn-group"> <a class="btn btn-danger" href="#scroller" data-slide="prev"><i class="icon-angle-left"></i></a> <a class="btn btn-danger" href="#scroller" data-slide="next"><i class="icon-angle-right"></i></a> </div>
+                    <p class="gap"></p>
+                </div>
+                <div class="col-md-9">
+                    <div id="scroller" class="carousel slide">
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <div class="row">
+                                    <div class="col-xs-4">
+                                        <div class="portfolio-item">
+                                            <div class="item-inner"> <img class="img-responsive" src="images/portfolio/recent/item1.png" alt="">
+                                                <h5>
+                                                    Nova - Corporate site template
+                                                </h5>
+                                                <div class="overlay"> <a class="preview btn btn-danger" title="Malesuada fames ac turpis egestas" href="images/portfolio/full/item1.jpg" rel="prettyPhoto"><i class="icon-eye-open"></i></a> </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-4">
+                                        <div class="portfolio-item">
+                                            <div class="item-inner"> <img class="img-responsive" src="images/portfolio/recent/item3.png" alt="">
+                                                <h5>
+                                                    Fornax - Apps site template
+                                                </h5>
+                                                <div class="overlay"> <a class="preview btn btn-danger" title="Malesuada fames ac turpis egestas" href="images/portfolio/full/item1.jpg" rel="prettyPhoto"><i class="icon-eye-open"></i></a> </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-4">
+                                        <div class="portfolio-item">
+                                            <div class="item-inner"> <img class="img-responsive" src="images/portfolio/recent/item2.png" alt="">
+                                                <h5>
+                                                    Flat Theme - Business Theme
+                                                </h5>
+                                                <div class="overlay"> <a class="preview btn btn-danger" title="Malesuada fames ac turpis egestas" href="images/portfolio/full/item1.jpg" rel="prettyPhoto"><i class="icon-eye-open"></i></a> </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--/.row-->
+                            </div>
+                            <!--/.item-->
+                            <div class="item">
+                                <div class="row">
+                                    <div class="col-xs-4">
+                                        <div class="portfolio-item">
+                                            <div class="item-inner"> <img class="img-responsive" src="images/portfolio/recent/item2.png" alt="">
+                                                <h5>
+                                                    Flat Theme - Business Theme
+                                                </h5>
+                                                <div class="overlay"> <a class="preview btn btn-danger" title="Malesuada fames ac turpis egestas" href="images/portfolio/full/item1.jpg" rel="prettyPhoto"><i class="icon-eye-open"></i></a> </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-4">
+                                        <div class="portfolio-item">
+                                            <div class="item-inner"> <img class="img-responsive" src="images/portfolio/recent/item1.png" alt="">
+                                                <h5>
+                                                    Nova - Corporate site template
+                                                </h5>
+                                                <div class="overlay"> <a class="preview btn btn-danger" title="Malesuada fames ac turpis egestas" href="images/portfolio/full/item1.jpg" rel="prettyPhoto"><i class="icon-eye-open"></i></a> </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-4">
+                                        <div class="portfolio-item">
+                                            <div class="item-inner"> <img class="img-responsive" src="images/portfolio/recent/item3.png" alt="">
+                                                <h5>
+                                                    Fornax - Apps site template
+                                                </h5>
+                                                <div class="overlay"> <a class="preview btn btn-danger" title="Malesuada fames ac turpis egestas" href="images/portfolio/full/item1.jpg" rel="prettyPhoto"><i class="icon-eye-open"></i></a> </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--/.item-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--/.row-->
+        </div>
+    </section>
+    <!--/#recent-works-->
+    <section id="testimonial" class="pomegranate">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="center">
+                        <div> <img src="images/ico/icon-opinion.png">
+                            <h2>Depoimentos</h2>
+                            <p>Alguns relatos e impressões sobre o curso.</p>
+                        </div>
+                    </div>
+                    <div class="gap"></div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <blockquote>
+                                <p>Escolhi o curso da Engenharia de Computação na UEMA por acreditar ser a tendência de mercado do futuro. Queria estudar em um curso que exigesse o máximo de mim. </p> <small>Rodrigo Oliveira Silva, Aluno do 9º Período</small> </blockquote>
+                            <blockquote>
+                                <p> O corpo docente formado por Doutores e mestres de qualidade, justificam o grande crescimento deste curso de graduação que já possui um mestrado profissional qualificado.</p> <small>Marcelo Renato do Carmo Pereira Filho, Engenheiro Eletricista, Analista de Suporte e Redes - EBSERH</small> </blockquote>
+                        </div>
+                        <div class="col-md-6">
+                            <blockquote>
+                                <p>O treinamento tem sido uma excelente ferramenta de capacitação profissional de nossa equipe, possibilitando uma ampliação do conhecimento dos profissionais.</p> <small>José Augusto Diniz Neto, Diretor da TVN</small> </blockquote>
+                            <blockquote>
+                                <p>Posso dizer que fiquei muito impressionado com o trabalho que vocês estão desenvolvendo na UEMA. No meu entender a proposta está alinhada não só com os aspectos acadêmicos como também no âmbito empresarial, sociedade. </p> <small>Gean Davis Breda, PhD em Telecomunicações pela FEEC/Unicamp</small> </blockquote>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--/#testimonial-->
+    <section id="bottom" class="wet-asphalt">
+        <div class="container">
+            <div class="row center"> <img src="images/ico/icon-news.png" alt="">
+                <h2>Últimas Notícias</h2></div>
+            <div class="gap"></div>
+            <div class="row">
+                <div class="col-md-5 col-sm-6">
+                    <div>
+                        <div class="media"> <img class="principal" src="images/blog/semic2016.jpg" alt="semic"></div>
+                        <div class="media-body"> <small class="muted"><br>Postado em 10 Nov 2016</small>
+                            <h4><span class="media-heading"><a href="XXVIIISemic.html">XXVIII Seminário de Iniciação Científica da UEMA</a></span></h4> </div>
+                        <p>Aconteceu ontem (9), a solenidade de abertura do XXVIII Seminário de Iniciação Científica (SEMIC) sobre o tema “Iniciação científica como geradora do conhecimento, saber e ciência”, no auditório do prédio de Biologia.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div>                        
+                        <div class="media">
+                            <div class="pull-left"> <img class="miniatura" src="images/blog/tech-nordeste.png" alt="technordeste"> </div>
+                            <div class="media-body"> <span class="media-heading"><a href="technordeste.html">TECH NORDESTE</a></span> <small class="muted">Postado 7 Nov 2016</small> </div>
+                        </div>
+                        <div class="media">
+                            <div class="pull-left"> <img class="miniatura" src="images/blog/forumphp.jpg" alt="7php"> </div>
+                            <div class="media-body"> <span class="media-heading"><a href="7php.html">7PHP | Fórum de Profissionais PHP</a></span> <small class="muted">Postado 5 Nov 2016</small> </div>
+                        </div>
+                        <div class="media">
+                            <div class="pull-left"> <img class="miniatura" src="images/blog/palestra.jpg" alt="palestra"> </div>
+                            <div class="media-body"> <span class="media-heading"><a href="palestra.html">Pesquisador alemão fala sobre novas tecnologias para alunos da UEMA</a></span> <small class="muted">Postado 28 Out 2016</small> </div>
+                        </div>
+                    </div>
+                </div>
+                <!--/.col-md-3-->
+                <div class="col-md-3 col-sm-6">
+                    <h4>Endereço</h4> <address>
+                        <strong>Universidade Estadual do Maranhão</strong><br>
+                        Cidade Universitária Paulo VI<br>
+                        Centro de Ciências Tecnológicas<br>
+                        São Cristovão - São Luís/MA <br>
+                        <abbr title="Telefone">Fone:</abbr> (98) 3245–5882
+                    </address>
+                    <h4>Boletim de Notícias</h4>
+                    <form role="form">
+                        <div class="input-group">
+                            <input type="text" class="form-control" autocomplete="off" placeholder="Digite seu Email"> <span class="input-group-btn">
+                                <button class="btn btn-danger" type="button">Ir</button>
+                            </span> </div>
+                    </form>
+                </div>
+                <!--/.col-md-3-->
+            </div>
+        </div>
+    </section>
+    <!--/#bottom-->
+    <footer id="footer" class="midnight-blue">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-8"> Copyrigh &copy; 2016 - Todos os direitos reservados. por <a href="http://facebook.com/rodsfmaia" target="_blank">Rodrigo Frazão</a>, <a href="http://facebook.com/leilanneborges" target="_blank">Leilanne Borges</a>,<a href="https://www.facebook.com/dgl.daniel" target="_blank">Daniel Douglas</a></div>
+                <div class="col-sm-4">
+                    <ul class="pull-right">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="grade.html">Grade Curricular</a></li>
+                        <li><a href="contatos.html">Contatos</a></li>
+                        <li><a id="gototop" class="gototop" href="#"><i class="icon-chevron-up"></i></a></li>
+                        <!--#gototop-->
+                    </ul>
+                </div>
+            </div>
+        </div>
     </footer>
-</div>
+    <!--/#footer-->
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.prettyPhoto.js"></script>
+    <script src="js/main.js"></script>
 </body>
+
 </html>
